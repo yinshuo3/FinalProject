@@ -150,6 +150,7 @@ public final class MainActivity extends AppCompatActivity {
                 button2.setVisibility(View.VISIBLE);
                 button3.setVisibility(View.VISIBLE);
                 button4.setVisibility(View.VISIBLE);
+                cancel.setVisibility(View.INVISIBLE);
             }
         }.start();
         cancel.setOnClickListener((v) -> {
